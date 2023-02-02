@@ -1,3 +1,3 @@
 # Pomodoro Timer App
 
-![https://sammriddhgupta-pomodoro-app-ciyl2h.streamlit.app/]
+[Streamlit Site](https://sammriddhgupta-pomodoro-app-ciyl2h.streamlit.app/)
