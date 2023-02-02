@@ -22,7 +22,7 @@ if button_clicked:
             mins, secs = divmod(t1,60)
             timer = '{:02d}:{:02d}'.format(mins,secs)
             st.header(f"⏳{timer}")
-            time.sleep(1)
+            time.sleep(0.01)
             t1 -= 1
             st.success("🥳 25 minutes are up! Now take a well deserved break :) ")
             
@@ -31,7 +31,7 @@ if button_clicked:
             mins2, secs2 = divmod(t2,60)
             timer2 = '{:02d}:{:02d}'.format(mins2,secs2)
             st.header(f"😇{timer2}")
-            time.sleep(1)
+            time.sleep(0.01)
             t2 -= 1
             st.error("⏲ Chop Chop back to work time, 5 minutes are up ")
                         
