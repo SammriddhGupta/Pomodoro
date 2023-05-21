@@ -29,7 +29,7 @@ h1, h2 {
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
-st.title(':blue[The Pomodoro App: Your Productivity Buddy]')
+st.title(':white[The Pomodoro App: Your Productivity Buddy]')
 
 button_clicked = st.button("Start")
 
