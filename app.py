@@ -8,7 +8,7 @@ def local_css(file_name):
 local_css("style.css")
 
 st.write("""
-# The Pomodoro App By Yours Truly Sammriddh aka Sam
+# The Pomodoro App: Your Productivity Buddy
 """)
 
 button_clicked = st.button("Start")
