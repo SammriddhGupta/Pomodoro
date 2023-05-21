@@ -11,7 +11,7 @@ page_bg_img ="""
 <style>
 [ data-testid="stAppViewContainer"] {
     
-background-image: url("https://media.istockphoto.com/id/1161898151/photo/close-up-of-calendar-and-alarm-clock-on-the-green-background-planning-for-business-meeting-or.jpg?s=612x612&w=0&k=20&c=lfdqaJBf6g9RU3iGwUhSkN1UbAtDNurReQBmISSClpI=");
+background-image: url("https://img.freepik.com/free-photo/workplace-with-notebook-clock-coffee-laptop_1112-255.jpg?w=996&t=st=1684664631~exp=1684665231~hmac=7fb5c07ee8c2f59d883b325697e04d3f57d3cc519af087e213878cda6090bfd4");
 
 background-size: cover;
 
