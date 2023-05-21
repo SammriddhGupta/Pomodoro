@@ -13,7 +13,8 @@ page_bg_img ="""
     
 background-image: url("https://img.freepik.com/free-photo/vintage-clock_74190-5728.jpg");
 
-background-size: cover;
+background-size: contain;
+background-repeat: no-repeat;
 }
 
 [data-testid="stToolbar] {
