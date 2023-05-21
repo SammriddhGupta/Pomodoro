@@ -11,7 +11,7 @@ page_bg_img ="""
 <style>
 [ data-testid="stAppViewContainer"] {
     
-background-image: url("https://img.freepik.com/free-photo/creative-flat-lay-design-workspace-desk-with-laptop-alarm-clock-blank-notebook-smartphone-stationery-with-copy-space-background_1150-45600.jpg?size=626&ext=jpg");
+background-image: url("https://img.freepik.com/free-photo/workspace-with-office-supplies-top-view_144627-32481.jpg?w=996&t=st=1684665389~exp=1684665989~hmac=06c3760880ef12130204cc461c927d45b37b8e297dd7ba016d1ce346894b6403");
 
 background-size: cover;
 
