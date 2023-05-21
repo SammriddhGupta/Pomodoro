@@ -33,6 +33,19 @@ st.title('The Pomodoro App: Your Productivity Buddy')
 
 button_clicked = st.button("Start")
 
+col1, col2, col3 , col4, col5 = st.beta_columns(5)
+
+with col1:
+    pass
+with col2:
+    pass
+with col4:
+    pass
+with col5:
+    pass
+with col3 :
+    center_button = button_clicked
+
 t1 = 1500
 t2 = 300
 
