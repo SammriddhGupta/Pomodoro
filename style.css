@@ -1,6 +1,6 @@
 body {
     color: #2E86C1;
-    background-color: #D6EAF8;
+    background-color: #adcde4;
     background-image: url("https://images.unsplash.com/photo-1650161800866-58e30cfa8205?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80");
     background-size: cover;
 }
@@ -13,5 +13,5 @@ body {
 }
 
 .stButton>button:hover {
-    background-color: rgb(239, 119, 119);
+    background-color: rgb(184, 224, 241);
 }
