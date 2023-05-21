@@ -20,6 +20,10 @@ background-size: cover;
 [data-testid="stToolbar] {
 }
 
+h1, h2 {
+    color: white;
+}
+
 </style>
 """
 
