@@ -7,18 +7,24 @@ def local_css(file_name):
 
 local_css("style.css")
 
-page_bg_img = '''
+page_bg_img ="""
 <style>
-body {
+[ data-testid="stAppViewContainer"] {
+    
 background-image: url("https://images.unsplash.com/photo-1650161800866-58e30cfa8205?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80");
+
 background-size: cover;
 }
+
+[data-testid="stToolbar] {
+}
+
 </style>
-'''
+"""
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
-st.write("""
+st.title("""
 # The Pomodoro App: Your Productivity Buddy
 """)
 
