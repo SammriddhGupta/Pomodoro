@@ -11,10 +11,10 @@ page_bg_img ="""
 <style>
 [ data-testid="stAppViewContainer"] {
     
-background-image: url("https://img.freepik.com/free-photo/vintage-clock_74190-5728.jpg");
+background-image: url("https://media.istockphoto.com/id/1161898151/photo/close-up-of-calendar-and-alarm-clock-on-the-green-background-planning-for-business-meeting-or.jpg?s=612x612&w=0&k=20&c=lfdqaJBf6g9RU3iGwUhSkN1UbAtDNurReQBmISSClpI=");
 
-background-size: contain;
-background-repeat: no-repeat;
+background-size: cover;
+
 }
 
 [data-testid="stToolbar] {
