@@ -30,7 +30,7 @@ h1, h2 {
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 st.title("""
-# The Pomodoro App: Your Productivity Buddy
+# The Pomodoro App: Your Productivity Buddy :color[blue]
 """)
 
 button_clicked = st.button("Start")
@@ -43,7 +43,7 @@ if button_clicked:
         while t1:
             mins, secs = divmod(t1,60)
             timer = '{:02d}:{:02d}'.format(mins,secs)
-            st.header(f"⏳{timer}")
+            st.header(f"⏳{timer}" :color[blue])
             time.sleep(1)
             t1 -= 1
             st.success("🥳 25 minutes are up! Now take a well deserved break :) ")
@@ -52,7 +52,7 @@ if button_clicked:
         while t2:
             mins2, secs2 = divmod(t2,60)
             timer2 = '{:02d}:{:02d}'.format(mins2,secs2)
-            st.header(f"😇{timer2}")
+            st.header(f"😇{timer2}" :color[blue])
             time.sleep(1)
             t2 -= 1
             st.error("⏲ Chop Chop back to work time, 5 minutes are up ")
