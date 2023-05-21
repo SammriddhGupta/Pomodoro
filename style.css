@@ -1,6 +1,7 @@
 body {
     color: #2E86C1;
     background-color: #D6EAF8;
+    background-image: url("/bg.png");
 }
 
 .stButton>button {
