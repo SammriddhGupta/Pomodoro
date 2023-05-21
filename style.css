@@ -13,5 +13,5 @@ body {
 }
 
 .stButton>button:hover {
-    background-color: red;
+    background-color: rgb(239, 119, 119);
 }
