@@ -11,7 +11,7 @@ page_bg_img ="""
 <style>
 [ data-testid="stAppViewContainer"] {
     
-background-image: url("https://img.freepik.com/free-photo/workspace-with-office-supplies-top-view_144627-32481.jpg?w=996&t=st=1684665389~exp=1684665989~hmac=06c3760880ef12130204cc461c927d45b37b8e297dd7ba016d1ce346894b6403");
+background-image: url("https://img.freepik.com/free-photo/neat-desktop-with-stationery-side_23-2147833262.jpg?w=1060&t=st=1684665770~exp=1684666370~hmac=6262ad0b6851f5431b6bf3c1d14dae39949f63b61620d7fbcb14980c261ca9de");
 
 background-size: cover;
 
@@ -32,19 +32,6 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 st.title('The Pomodoro App: Your Productivity Buddy')
 
 button_clicked = st.button("Start")
-
-col1, col2, col3 , col4, col5 = st.beta_columns(5)
-
-with col1:
-    pass
-with col2:
-    pass
-with col4:
-    pass
-with col5:
-    pass
-with col3 :
-    center_button = button_clicked
 
 t1 = 1500
 t2 = 300
